@@ -22,6 +22,7 @@ for k in range(1, 76576501):
 # 			print cnt
 
 c = []
+print lis
 for number in lis:
 	
 	b = range(2, number+1)
@@ -31,6 +32,7 @@ for number in lis:
 			c.append(i)
 			if (len(c) == 499):
 				print number
+				break
 	del c[:]
 
 
